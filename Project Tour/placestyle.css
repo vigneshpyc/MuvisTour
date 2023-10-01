@@ -1,0 +1,82 @@
+:root{
+    --color: tomato;
+    --font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    width: 90%;
+    height: auto;
+    margin-left: 70px;
+    border: 1px solid tomato;
+    box-shadow: 0 0 22px 0  black;
+    border-radius: 25px;
+}
+.content-1{
+    font-size: 25px;
+    color: var(--color);
+    font-family: var(--font-family);
+    padding: 10px;   
+}
+.box1 ,.box2 ,.box3,.box4{
+    position: relative;    
+    width: 95%;
+    height: 250px;
+    border: 1px solid tomato;
+    margin: 10px;
+    border-radius: 20px;
+}
+img{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.usa{
+    position: absolute;
+    top: 50px;
+    left: 320px;
+    color: var(--color);
+    font-family: var(--font-family);
+    font-size: 25px;
+}
+.para-1{
+    position: absolute;
+    top: 70px;
+    left: 320px;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+    font-family: var(--font-family); 
+}
+.mode{
+    position: absolute;
+    left: 320px;
+    top: 100px;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+.price{
+    position: absolute;
+    left: 320px;
+    top: 130px;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+.btn1,a{
+    font-size: 15px;
+    font-family: var(--font-family);
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--color);
+    border-color: tomato;
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px;
+}
+.btn1{
+    margin-left: 100px;
+}
+.btn1:hover{
+    background-color: tomato;
+}
+a:hover{
+    color: white;
+}

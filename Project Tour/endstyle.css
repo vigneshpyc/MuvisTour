@@ -1,0 +1,28 @@
+:root{
+    --font-family:Arial, Helvetica, sans-serif;
+    --color: tomato;
+}
+body{
+    background-image: url('F:\\HTML Learning\\Project Tour\\img\\usa2.jpeg');
+    background-size: cover;
+}
+.contain{
+    width: 600px;
+    height: 300px;
+    border: 2px solid tomato;
+    background-color: white;
+    opacity: .7;
+    margin-left: 350px;
+    margin-top: 250px;
+    border-radius: 25px;
+}
+h1{
+    color: var(--color);
+    font-family: var(--font-family);
+    margin-left: 70px;
+    margin-top: 100px;
+}
+img{
+    margin-left: 250px;
+    
+}

@@ -1,0 +1,287 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tour</title>
+    <!--
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        :root{
+            --color: white;
+            --font-family:Arial, Helvetica, sans-serif;       
+        }
+        .main ul{
+            display: flex;
+            list-style-type: none;
+            float: right;
+            line-height: 35px;
+            margin-left: 700px;            
+        }
+        .main{
+            
+            display: flex;
+            background-color: tomato;
+            position: sticky;
+            top: 0;
+        }
+        #lb{
+            padding-right: 50px;
+            color:var(--color);
+            text-decoration: none;
+            font-family: var(--font-family);
+        }
+        .head{
+            padding-left: 50px;
+            font-family: var(--font-family);
+            color: var(--color);
+            line-height: 35px;
+        }
+        .second{
+            width: 900px;
+            height: 200px;
+            margin-top: 10px;
+            margin-left: 250px;
+            /*background-image: url("F:\\VIGNESH\\Project images\\sea.jpg");*/
+
+        }
+        .third-main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+            margin-top: 50px;
+
+        }
+        .card1,.card2,.card3{
+            width: 350px;
+            height: 220px;
+            border: 1px solid orangered;
+            margin-top: 50px;
+            margin-right: 50px;
+        }
+        .circle_div1{
+            position: absolute;
+            top: 600px;
+            margin-left: 25px;
+            background-image: url('F:VIGNESH\\Project images\\ifill.jpeg');
+            background-size:80%;
+            width: 100px;
+            height: 100px;
+            border: 1px solid tomato;
+            border-radius: 50px;
+            margin-top: 100px;
+        }
+        .circle_div2{
+            position: absolute;
+            top: 600px;
+            margin-left: 25px;
+            background-image: url('F:VIGNESH\\Project images\\london.jpeg');
+            background-size:130px;
+            width: 100px;
+            height: 100px;
+            border: 1px solid tomato;
+            border-radius: 50px;
+            margin-top: 100px;
+
+        }
+        .circle_div3{
+            position: absolute;
+            top: 600px;
+            margin-left: 25px;
+            background-image: url('F:VIGNESH\\Project images\\usa.jpg');
+            background-size:cover;
+            width: 100px;
+            height: 100px;
+            border: 1px solid tomato;
+            border-radius: 50px;
+            margin-top: 100px;
+
+        }
+        .place_name{
+            padding: 5px;
+            margin-top: 50px;
+            font-family: var(--font-family);
+            color: lightcoral;
+        }
+        p{
+            padding: 5px;
+            overflow: hidden;
+            text-align: justify;
+        }
+        #lb:hover{
+            color:rgb(163, 48, 48);
+        }
+        #offer-head{
+            padding-left: 50px;
+            font-family:var(--font-family);
+            color: tomato;
+            font-size: 25px;
+            margin-top: 10px;
+
+        }
+        .footer{
+            width: 100%;
+            height: 300px;
+            background-color: tomato;
+        }
+        .end{
+            font-family: var(--font-family);
+            color: white;
+            text-align: center;
+            font-size: 25px;
+        }
+        #Head{
+            font-family: var(--font-family);
+            color: aliceblue;
+            font-size: 50px;
+            padding-top: 150px;
+            text-align: center;
+            
+            
+        }
+        .end-content{
+            width: 400px;
+            height: 150px;
+            margin-left: 500px;
+            margin-top: 50px;
+            font-family: var(--font-family);
+            color: var(--color);
+            font-size: 25px;
+            border-radius: 20px;
+            box-shadow: 0 0px 32px 0 rgb(173, 64, 45);
+            
+        }
+        #login-letters{
+            color: var(--color);
+        }
+        .login-button{
+            color:var(--color);
+            justify-content: center;
+            margin-left: 100px;
+            font-family: var(--font-family);
+            font-size: 25px;
+            background: transparent;
+            box-shadow: 0 0px 32px 0 rgb(173, 64, 45);
+            border: none;
+            border-radius: 10px;
+        }
+        .btn{
+            color: rgb(211, 193, 190);
+        }
+        #lb{
+            padding-left: 50px ;
+        }
+        .fisrt_content{
+            width: 100%;
+            height: 600px;
+            background-image: url('F:VIGNESH\\Project images\\nature1.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: var(--font-family);
+            color: var(--color);
+        }
+        .thought{
+            text-align: center;
+        }
+        .btn1{
+            font-size: 20px;
+            border-radius: 20px;
+            border: 1px solid black;
+            margin-left: 550px;            
+            width: 100px;
+            margin-top: 50px;
+            background-color: transparent;
+            color: var(--color);
+            padding: 5px;
+        }
+        .btn2 {
+            font-size: 20px;
+            border-radius: 20px;
+            border: 1px solid black;
+            width: 100px;
+            margin-top: 50px;
+            margin-left: 50px;
+            background-color: transparent;
+            color: var(--color);
+            padding: 5px;
+        }
+        .btn1 .btn2:hover{
+            background-color: tomato;
+            color: var(--color);
+        }
+        .btn1 .btn2 ,a{
+            color: var(--color);
+            text-decoration: none;
+        }
+        .btn1:hover{
+            background-color: tomato;
+        }
+        .btn2:hover{
+            background-color: tomato;
+        }
+    </style>
+    -->
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+<body>
+    <div class="main">
+        <h2 class="head">MyTour</h2>
+        <ul>
+            <li><a href="#" id="lb">Home</a></li>
+            <li><a href="places.html" id="lb">Places</a></li>
+            <li><a href="#" id="lb">Services</a></li>
+            <li><a href="#" id="lb">Contact</a></li>
+        </ul>
+    </div>
+    <div class="fisrt_content">
+        <h3 id="Head">Make your Trip wonder full with us</h3>
+        <p class="thought">welcome to you all!. Here you want to choose your Places easily and book your travell tickets resorts easily.All in one place.</p>
+        <p class="thought">Make Your Trip wonderfull and safely with us.</p>
+        <button class="btn1" type="button"><a href="velammal.html">Sigin</a></button>
+        <button class="btn2" type="button"><a href="#">Signup</a></button>
+    </div>
+    <h3 id="offer-head">offer availabel Places</h3>
+    <div class="third-main">
+        <div class="card1">
+            <h1 class="place_name">Paris</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo ipsum velit architecto quae id, labore quaerat tempore sunt, corrupti</p>
+
+            <div class="circle_div1"></div>
+        </div>
+        <div class="card2">
+            <h1 class="place_name">London</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo ipsum velit architecto quae id, labore quaerat tempore sunt, corrupti</p>
+
+            <div class="circle_div2"></div>
+
+        </div>
+        <div class="card3">
+            <h1 class="place_name">America</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo ipsum velit architecto quae id, labore quaerat tempore sunt, corrupti</p>
+
+            <div class="circle_div3"></div>
+
+        </div>
+    </div><hr><br><br><hr>
+    <div class="footer">
+        <p class="end">The world is very beautifull. If you Want to fullfill your life visit arround the world with us.</p>
+        <div class="end-content">
+            <p id="login-letters">Book your Tickets to Login in our website.if you have no account please click here to register<a href="#" class="btn">             click here</a></p>
+            <button class="login-button"><a href="velammal.html" id="lb">Login</a></button>
+            
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
